@@ -1,0 +1,181 @@
+body {
+	background: #f09819;
+	background: -moz-linear-gradient(left,  #f09819 1%, #ff512f 100%);
+	background: -webkit-linear-gradient(left,  #f09819 1%,#ff512f 100%);
+	background: linear-gradient(to right,  #f09819 1%,#ff512f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09819', endColorstr='#ff512f',GradientType=1 );
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #282828;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#login-area h2 {
+	text-align: center;
+	font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff512f;
+}
+
+#login-form {
+	margin-top: 80px;
+	background: white;
+	padding: 50px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 100%;
+}
+
+#login-form input[type="submit"] {
+  width: 100%;
+  background: white;
+  color: #8c8c8c;
+  padding: 17px 20px;
+  border: 2px solid #8c8c8c;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+#login-form input[type="submit"]:hover {
+  color: #fff;
+  background: #ff512f;
+  border: 2px solid #ff512f;
+}
+
+#login-form p#error-msg {
+	margin-bottom: 0;
+}
+
+#login-form input[type="text"] {
+  border: none;
+  background: white;
+  box-shadow: none;
+  border-bottom: 2px solid #8c8c8c;
+  border-radius: 0;
+  font-size: 1.5rem;
+  padding: 1.5rem .5rem;
+  margin: 0 0 2rem;
+}
+
+#login-form input[type="text"]:focus {
+  border-color: #ff512f;
+}
+
+#message-area {
+  padding-top: 60px;
+  display: none;
+}
+
+#message-area h2 {
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+#message-area .top {
+	background: #f8f8f8;
+}
+ 
+#message-area .top h5 {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+  margin-bottom: 0;
+}   
+
+#message-area .chat-wrap {
+	background: white;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 100%;
+}
+
+#messages {
+	overflow-y:auto; 
+	overflow-x:hidden;
+	height: 400px;
+	padding: 5px 10px;
+}
+
+#messages::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+#messages::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+#messages::-webkit-scrollbar-thumb {
+  background-color: #F44336;
+}
+
+.wrap-msg {
+  padding: 6px 10px 7px;
+  border-radius: 0 10px 10px 10px;
+  background: #f8f8f8;
+  margin: 8px 5px;
+  margin-left: 10px;
+}
+
+#message-form input[type="submit"] {
+  width: 100%;
+  background: #f8f8f8;
+  color: #282828;
+  padding: 0 20px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#message-form input[type="submit"]:hover{
+  color: #F44336;
+  font-weight: 700
+}
+
+#message-form input[type="text"] {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background: #f8f8f8;
+}
+
+@media screen and (max-width: 39.9375em) {
+  #login-area h2, #message-area h2 {
+    font-size: 2rem;
+  }
+  #login-form {
+    padding: 35px 20px;
+  }
+  #login-form input[type="text"] {
+    font-size: 1.125rem;
+  }
+  #message-area {
+    padding-top: 30px;
+  }
+  #message-area .top h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #login-form input[type="text"] {
+    font-size: 1.3rem;
+  }
+}

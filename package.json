@@ -1,0 +1,16 @@
+{
+  "name": "socketio-chatroom",
+  "version": "1.0.0",
+  "description": "Chat app built in Node.js using Express and Socket.IO",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Moniba Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "socket.io": "^1.7.3"
+  }
+}
