@@ -156,6 +156,28 @@ p {
   background: #f8f8f8;
 }
 
+#message-form .input-group {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 5px 0;
+  text-align: center
+  ;
+}
+footer p {
+  color: #fff;
+}
+
+footer a, footer a:visited  {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover{
+  color: #282828;
+}
+
 @media screen and (max-width: 39.9375em) {
   #login-area h2, #message-area h2 {
     font-size: 2rem;
